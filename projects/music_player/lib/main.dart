@@ -26,10 +26,7 @@ class MyHome extends StatefulWidget {
 class _MyHomeState extends State<MyHome> {
   AudioPlayer _audio = AudioPlayer();
   bool isPlaying = false;
-  String currentTime = "00:00";
-  String completeTime= "00:00";
 
- 
 
   @override
   Widget build(BuildContext context) {
